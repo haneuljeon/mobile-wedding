@@ -20,7 +20,7 @@ function startTyping() {
                 target.innerHTML += text.charAt(i);
             }
             i++;
-            setTimeout(typing, 35);
+            setTimeout(typing, 80);
         } else {
             setTimeout(function () {
                 loadingWrap.style.transition = "opacity 0.4s";

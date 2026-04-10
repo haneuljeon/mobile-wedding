@@ -299,3 +299,12 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+
+#typingText {
+    font-family: 'Alex Brush', cursive;
+    font-size: 76px;
+    line-height: 1.1;
+    color: #efc8d2;
+    text-shadow: 0 0 1px rgba(0,0,0,0.03);
+}

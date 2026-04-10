@@ -20,17 +20,17 @@ function startTyping() {
                 target.innerHTML += text.charAt(i);
             }
             i++;
-            setTimeout(typing, 90);
+            setTimeout(typing, 35);
         } else {
             setTimeout(function () {
-                loadingWrap.style.transition = "opacity 0.8s";
+                loadingWrap.style.transition = "opacity 0.4s";
                 loadingWrap.style.opacity = "0";
 
                 setTimeout(function () {
                     loadingWrap.style.display = "none";
                     pageWrap.className = "";
-                }, 800);
-            }, 700);
+                }, 400);
+            }, 250);
         }
     }
 

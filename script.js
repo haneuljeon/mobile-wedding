@@ -20,7 +20,7 @@ function startTyping() {
                 target.innerHTML += text.charAt(i);
             }
             i++;
-            setTimeout(typing, 80);
+            setTimeout(typing, 90);
         } else {
             setTimeout(function () {
                 loadingWrap.style.transition = "opacity 0.4s";
@@ -30,7 +30,7 @@ function startTyping() {
                     loadingWrap.style.display = "none";
                     pageWrap.className = "";
                 }, 400);
-            }, 250);
+            }, 500);
         }
     }
 

@@ -6,7 +6,7 @@
 };
 
 function startTyping() {
-    var text = "We are getting married.";
+    var text = "We're getting\nmarried!";
     var target = document.getElementById("typingText");
     var loadingWrap = document.getElementById("loadingWrap");
     var pageWrap = document.getElementById("pageWrap");

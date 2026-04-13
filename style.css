@@ -310,3 +310,19 @@
     font-weight: 590;
     text-shadow: 0 0 1px #efc8d2, 0 0 1px #efc8d2;
 }
+
+
+.person-photo {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.person-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
